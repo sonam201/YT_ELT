@@ -1,0 +1,95 @@
+[2026-03-23T10:20:34.048+0000] {processor.py:161} INFO - Started process (PID=422) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:20:34.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:20:34.053+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:20:34.053+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:20:34.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:20:34.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.051 seconds
+[2026-03-23T10:21:04.456+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:21:04.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:21:04.460+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:21:04.460+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:21:04.474+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:21:04.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.042 seconds
+[2026-03-23T10:21:17.705+0000] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:21:17.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:21:17.709+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:21:17.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:21:17.740+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:21:17.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.059 seconds
+[2026-03-23T10:21:48.129+0000] {processor.py:161} INFO - Started process (PID=446) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:21:48.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:21:48.136+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:21:48.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:21:48.160+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:21:48.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.063 seconds
+[2026-03-23T10:22:18.624+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:22:18.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:22:18.628+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:22:18.628+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:22:18.647+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:22:18.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.051 seconds
+[2026-03-23T10:22:49.152+0000] {processor.py:161} INFO - Started process (PID=463) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:22:49.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:22:49.155+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:22:49.154+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:22:49.173+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:22:49.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.043 seconds
+[2026-03-23T10:23:19.604+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:23:19.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:23:19.607+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:23:19.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:23:19.624+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:23:19.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.048 seconds
+[2026-03-23T10:23:50.070+0000] {processor.py:161} INFO - Started process (PID=479) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:23:50.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:23:50.073+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:23:50.072+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:23:50.088+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:23:50.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.040 seconds
+[2026-03-23T10:24:20.524+0000] {processor.py:161} INFO - Started process (PID=487) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:24:20.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:24:20.528+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:24:20.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:24:20.551+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:24:20.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.058 seconds
+[2026-03-23T10:24:50.953+0000] {processor.py:161} INFO - Started process (PID=495) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:24:50.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:24:50.955+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:24:50.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:24:50.971+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:24:50.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.039 seconds
+[2026-03-23T10:25:01.149+0000] {processor.py:161} INFO - Started process (PID=497) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:25:01.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:25:01.155+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:25:01.154+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:25:01.221+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:25:01.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.110 seconds
+[2026-03-23T10:25:31.588+0000] {processor.py:161} INFO - Started process (PID=505) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:25:31.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:25:31.591+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:25:31.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:25:31.611+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:25:31.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.051 seconds
+[2026-03-23T10:26:02.076+0000] {processor.py:161} INFO - Started process (PID=513) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:26:02.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:26:02.079+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:26:02.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:26:02.097+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:26:02.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.053 seconds
+[2026-03-23T10:26:32.590+0000] {processor.py:161} INFO - Started process (PID=521) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:26:32.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:26:32.602+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:26:32.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:26:32.649+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:26:32.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.114 seconds
+[2026-03-23T10:27:03.208+0000] {processor.py:161} INFO - Started process (PID=529) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:27:03.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:27:03.211+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:27:03.211+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:27:03.235+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:27:03.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.056 seconds
+[2026-03-23T10:27:33.662+0000] {processor.py:161} INFO - Started process (PID=537) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:27:33.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:27:33.669+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:27:33.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:27:33.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:27:33.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.078 seconds
+[2026-03-23T10:28:04.319+0000] {processor.py:161} INFO - Started process (PID=546) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:28:04.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:28:04.325+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:28:04.324+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:28:04.357+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:28:04.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.077 seconds
+[2026-03-23T10:28:34.837+0000] {processor.py:161} INFO - Started process (PID=554) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:28:34.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:28:34.840+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:28:34.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:28:34.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:28:34.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.050 seconds
+[2026-03-23T10:29:05.305+0000] {processor.py:161} INFO - Started process (PID=562) to work on /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:29:05.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/api/video_stats.py for tasks to queue
+[2026-03-23T10:29:05.308+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:29:05.308+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:29:05.323+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/api/video_stats.py
+[2026-03-23T10:29:05.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/api/video_stats.py took 0.041 seconds

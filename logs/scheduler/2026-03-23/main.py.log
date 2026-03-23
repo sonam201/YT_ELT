@@ -1,0 +1,257 @@
+[2026-03-23T10:20:33.961+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:20:33.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:20:33.965+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:20:33.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:20:34.063+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:20:34.291+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:20:34.290+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:produce_json
+[2026-03-23T10:20:34.303+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:20:34.303+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:produce_json
+[2026-03-23T10:20:34.312+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:20:34.312+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:produce_json
+[2026-03-23T10:20:34.313+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:20:34.313+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:20:34.326+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:20:34.325+0000] {dag.py:3118} INFO - Creating ORM DAG for produce_json
+[2026-03-23T10:20:34.337+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:20:34.337+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-22 08:30:00+00:00, run_after=2026-03-23 08:30:00+00:00
+[2026-03-23T10:20:34.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.407 seconds
+[2026-03-23T10:21:04.444+0000] {processor.py:161} INFO - Started process (PID=430) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:21:04.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:21:04.448+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:21:04.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:21:04.479+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:21:04.517+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:21:04.517+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:21:04.542+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:21:04.542+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-22 08:30:00+00:00, run_after=2026-03-23 08:30:00+00:00
+[2026-03-23T10:21:04.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.135 seconds
+[2026-03-23T10:21:19.763+0000] {processor.py:161} INFO - Started process (PID=439) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:21:19.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:21:19.767+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:21:19.767+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:21:19.859+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:21:19.849+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 35, in <module>
+    save_to_json_task = save_to_json(extract_data)
+  File "/opt/airflow/dags/api/video_stats.py", line 111, in save_to_json
+    json.dump(extracted_data, json_outfile, indent=4, ensure_ascii=False)
+  File "/usr/local/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/local/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PlainXComArg is not JSON serializable
+[2026-03-23T10:21:19.860+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:21:19.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.130 seconds
+[2026-03-23T10:21:50.240+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:21:50.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:21:50.248+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:21:50.247+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:21:50.315+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:21:50.307+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 35, in <module>
+    save_to_json_task = save_to_json(extract_data)
+  File "/opt/airflow/dags/api/video_stats.py", line 111, in save_to_json
+    json.dump(extracted_data, json_outfile, indent=4, ensure_ascii=False)
+  File "/usr/local/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/local/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PlainXComArg is not JSON serializable
+[2026-03-23T10:21:50.316+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:21:50.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.117 seconds
+[2026-03-23T10:22:20.670+0000] {processor.py:161} INFO - Started process (PID=455) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:22:20.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:22:20.677+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:22:20.676+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:22:20.739+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:22:20.727+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 35, in <module>
+    save_to_json_task = save_to_json(extract_data)
+  File "/opt/airflow/dags/api/video_stats.py", line 111, in save_to_json
+    json.dump(extracted_data, json_outfile, indent=4, ensure_ascii=False)
+  File "/usr/local/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/local/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PlainXComArg is not JSON serializable
+[2026-03-23T10:22:20.741+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:22:20.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.114 seconds
+[2026-03-23T10:22:51.257+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:22:51.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:22:51.259+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:22:51.259+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:22:51.315+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:22:51.306+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 35, in <module>
+    save_to_json_task = save_to_json(extract_data)
+  File "/opt/airflow/dags/api/video_stats.py", line 111, in save_to_json
+    json.dump(extracted_data, json_outfile, indent=4, ensure_ascii=False)
+  File "/usr/local/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/local/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PlainXComArg is not JSON serializable
+[2026-03-23T10:22:51.316+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:22:51.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.097 seconds
+[2026-03-23T10:23:21.628+0000] {processor.py:161} INFO - Started process (PID=472) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:23:21.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:23:21.630+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:23:21.630+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:23:21.680+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:23:21.672+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 35, in <module>
+    save_to_json_task = save_to_json(extract_data)
+  File "/opt/airflow/dags/api/video_stats.py", line 111, in save_to_json
+    json.dump(extracted_data, json_outfile, indent=4, ensure_ascii=False)
+  File "/usr/local/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/local/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PlainXComArg is not JSON serializable
+[2026-03-23T10:23:21.681+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:23:21.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.089 seconds
+[2026-03-23T10:23:52.134+0000] {processor.py:161} INFO - Started process (PID=480) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:23:52.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:23:52.137+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:23:52.136+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:23:52.181+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:23:52.174+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 35, in <module>
+    save_to_json_task = save_to_json(extract_data)
+  File "/opt/airflow/dags/api/video_stats.py", line 111, in save_to_json
+    json.dump(extracted_data, json_outfile, indent=4, ensure_ascii=False)
+  File "/usr/local/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/local/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PlainXComArg is not JSON serializable
+[2026-03-23T10:23:52.182+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:23:52.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2026-03-23T10:24:22.609+0000] {processor.py:161} INFO - Started process (PID=488) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:24:22.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:24:22.611+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:24:22.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:24:22.658+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:24:22.649+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 35, in <module>
+    save_to_json_task = save_to_json(extract_data)
+  File "/opt/airflow/dags/api/video_stats.py", line 111, in save_to_json
+    json.dump(extracted_data, json_outfile, indent=4, ensure_ascii=False)
+  File "/usr/local/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/local/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PlainXComArg is not JSON serializable
+[2026-03-23T10:24:22.658+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:24:22.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.081 seconds
+[2026-03-23T10:24:52.987+0000] {processor.py:161} INFO - Started process (PID=496) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:24:52.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:24:52.989+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:24:52.989+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:24:53.031+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:24:53.025+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 35, in <module>
+    save_to_json_task = save_to_json(extract_data)
+  File "/opt/airflow/dags/api/video_stats.py", line 111, in save_to_json
+    json.dump(extracted_data, json_outfile, indent=4, ensure_ascii=False)
+  File "/usr/local/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/local/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PlainXComArg is not JSON serializable
+[2026-03-23T10:24:53.032+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:24:53.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2026-03-23T10:25:03.232+0000] {processor.py:161} INFO - Started process (PID=498) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:25:03.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:25:03.238+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:25:03.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:25:03.323+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:25:03.515+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:25:03.514+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:25:03.545+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:25:03.544+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-22 08:30:00+00:00, run_after=2026-03-23 08:30:00+00:00
+[2026-03-23T10:25:03.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.373 seconds
+[2026-03-23T10:25:33.690+0000] {processor.py:161} INFO - Started process (PID=506) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:25:33.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:25:33.693+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:25:33.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:25:33.732+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:25:33.771+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:25:33.771+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:25:33.799+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:25:33.799+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-22 08:30:00+00:00, run_after=2026-03-23 08:30:00+00:00
+[2026-03-23T10:25:33.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.146 seconds
+[2026-03-23T10:26:04.112+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:26:04.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:26:04.117+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:26:04.116+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:26:04.180+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:26:04.230+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:26:04.229+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:26:04.270+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:26:04.270+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-23 08:30:00+00:00, run_after=2026-03-24 08:30:00+00:00
+[2026-03-23T10:26:04.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.210 seconds
+[2026-03-23T10:26:34.697+0000] {processor.py:161} INFO - Started process (PID=522) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:26:34.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:26:34.700+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:26:34.699+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:26:34.740+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:26:34.777+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:26:34.777+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:26:34.803+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:26:34.803+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-23 08:30:00+00:00, run_after=2026-03-24 08:30:00+00:00
+[2026-03-23T10:26:34.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.146 seconds
+[2026-03-23T10:27:05.286+0000] {processor.py:161} INFO - Started process (PID=530) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:27:05.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:27:05.289+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:27:05.289+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:27:05.331+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:27:05.365+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:27:05.365+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:27:05.389+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:27:05.389+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-23 08:30:00+00:00, run_after=2026-03-24 08:30:00+00:00
+[2026-03-23T10:27:05.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.138 seconds
+[2026-03-23T10:27:35.836+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:27:35.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:27:35.839+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:27:35.838+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:27:35.887+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:27:35.927+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:27:35.926+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:27:35.956+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:27:35.956+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-23 08:30:00+00:00, run_after=2026-03-24 08:30:00+00:00
+[2026-03-23T10:27:35.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.158 seconds
+[2026-03-23T10:28:06.406+0000] {processor.py:161} INFO - Started process (PID=547) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:28:06.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:28:06.412+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:28:06.411+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:28:06.528+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:28:06.608+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:28:06.607+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:28:06.674+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:28:06.673+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-23 08:30:00+00:00, run_after=2026-03-24 08:30:00+00:00
+[2026-03-23T10:28:06.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.342 seconds
+[2026-03-23T10:28:36.869+0000] {processor.py:161} INFO - Started process (PID=555) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:28:36.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:28:36.872+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:28:36.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:28:36.921+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:28:36.956+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:28:36.956+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:28:36.981+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:28:36.981+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-23 08:30:00+00:00, run_after=2026-03-24 08:30:00+00:00
+[2026-03-23T10:28:37.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.146 seconds
+[2026-03-23T10:29:07.334+0000] {processor.py:161} INFO - Started process (PID=563) to work on /opt/airflow/dags/main.py
+[2026-03-23T10:29:07.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-03-23T10:29:07.337+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:29:07.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-03-23T10:29:07.385+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-03-23T10:29:07.426+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:29:07.426+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-23T10:29:07.455+0000] {logging_mixin.py:188} INFO - [2026-03-23T10:29:07.455+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-03-23 08:30:00+00:00, run_after=2026-03-24 08:30:00+00:00
+[2026-03-23T10:29:07.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.163 seconds
