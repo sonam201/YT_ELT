@@ -8,7 +8,7 @@ def parse_duration(duration_str):
         if component in duration_str:
             value, duration_str = duration_str.split(component)
             values[component] = int(value)
-    total_duration = timedelta(days=values["D"], hours=values["H"], minutes=values["M"], secondsays=values["S"])
+    total_duration = timedelta(days=values["D"], hours=values["H"], minutes=values["M"], seconds=values["S"])
     return total_duration
 def transform_data(row):
     duration_td = parse_duration(row['Duration'])
