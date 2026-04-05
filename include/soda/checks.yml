@@ -1,0 +1,27 @@
+checks for yt_api:
+  - missing_count("Video_ID") = 0
+  - duplicate_count("Video_ID") = 0
+
+  - zero_views_with_likes = 0:
+      name: Check for videos with zero views but positive likes
+      zero_views_with_likes query: |
+        SELECT COUNT(*)
+        FROM ${SCHEMA}.yt_api
+        WHERE "Video_Views" = 0
+          AND "Likes_Count" > 0
+
+  - likes_count_greater_than_vid_views = 0:
+      name: Check for Likes_Count greater than Video_Views when views are above zero
+      likes_count_greater_than_vid_views query: |
+        SELECT COUNT(*)
+        FROM ${SCHEMA}.yt_api
+        WHERE "Video_Views" > 0
+          AND "Likes_Count" > "Video_Views"
+
+  - comments_count_greater_than_vid_views = 0:
+      name: Check for Comments_Count greater than Video_Views when views are above zero
+      comments_count_greater_than_vid_views query: |
+        SELECT COUNT(*)
+        FROM ${SCHEMA}.yt_api
+        WHERE "Video_Views" > 0
+          AND "Comments_Count" > "Video_Views"
