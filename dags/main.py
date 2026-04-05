@@ -54,4 +54,3 @@ with DAG(
 
     #define dependencies
     update_staging >> update_core
-
